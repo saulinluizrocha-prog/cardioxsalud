@@ -41,7 +41,7 @@ try{
     ));
 
     if( $lead ){
-        header('Location: success.html?id='.$lead->id);
+        header('Location: /success.html?id='.$lead->id);
     }
 
 }catch (Exception $e) {
